@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    box-align: center;
 }
 
 html, body {
@@ -64,9 +65,15 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+
 }
 
 .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container about-page {
     width: 800px;
     margin: 0 auto;
 }
@@ -76,23 +83,26 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed midnightblue;
 }
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 0 5%;
+    padding-bottom: 20px; 
+    color: salmon; 
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    padding-top: 0.1%;
+    border-bottom: 2px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    padding: 0 1%;
+    margin-bottom: 5;
+    border: 2px dashed black;
 }
 
 .middle-content .boxes {
@@ -104,12 +114,111 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: blanchedalmond;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background-color: aqua;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+
+}
+.middle-content .boxes .box2{
+    background-color: yellow;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content .boxes .box3 {
+    background-color: blue;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content .boxes .box4 {
+    background-color: plum;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content .boxes .box5 {
+    background-color: orangered;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content .boxes .box6 {
+    background-color: indianred;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content .boxes .box7 {
+    background-color: lightcoral;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content .boxes .box8 {
+    background-color: thistle;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content .boxes .box9 {
+    background-color: darkslateblue;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content .boxes .box0 {
+    background-color: royalblue;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.middle-content .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
 }
 
 .bottom-content {
@@ -144,3 +253,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
