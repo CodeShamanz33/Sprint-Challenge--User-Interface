@@ -176,7 +176,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 2px dashed midnightblue;
+    border-bottom: 1px solid midnightblue;
 }
 
 .top-content .text-container {
@@ -255,7 +255,7 @@ p {
     background-color: crimson;
     height: 100px;
     width: 12.5%;
-    margin: 20px 2.5%;
+    margin: 20px 25%;
     justify-content: center;
     align-items: center;
 }
