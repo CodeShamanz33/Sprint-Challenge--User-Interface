@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Explain how semantic HTML is a markup language. this allows us to introduce meaning as well as presentation. some examples include the <p>, <h1-h6>, and <em>. Also give examples of what isn't semantic html, <header>, <section>, and <footer>. even though both are necessary for a well structured page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+    Display: Block; shows the element as a block element by the browser UA stylesheet. a few examples are <div>, <ul> and a block level element are <h1> and <p>. by default no set width and they fill the horizontal space.
+
+    Display: Inline; is a default value for most elements. a good example is <span>, <em>, and these elements allow for text wrapping in a string without breaking the flow of text. Inline will accept padding an margin and still sits inline with the text, without breaking the flow.
+,
 3. What are the 4 areas of the box model?
+
+content edge, padding edge, border edge, and margin edge. 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+it modifies text on the Cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+It allows for members of your development team to work on a code from various locations and be able to merge once completed so that everyone can check and modify each others work. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
