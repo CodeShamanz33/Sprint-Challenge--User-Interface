@@ -73,10 +73,6 @@ p {
     margin: 0 auto;
 }
 
-.container about-page {
-    width: 800px;
-    margin: 0 auto;
-}
 
 .top-content {
     display: flex;
@@ -136,6 +132,7 @@ p {
     height: 100px;
     width: 12.5%;
     margin: 20px 2.5%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
