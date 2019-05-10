@@ -34,15 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-I would explain the types of sematic tags and the different meanings. for example <h1> is a semantic tag for 
+        I would explain the types of sematic tags and the different meanings. for example <h1></h1>is a semantic tag for header as well as the varius uses and differences. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+        display:inline- wraps text so the flow of text is unbroken and ignores height and width.
+        display:block- aligns the text on the baseline but unlike inline it respects the height and width.
+
 3. What are the 4 areas of the box model?
+
+        top, right, bottom, left
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+        cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+        Git allows a team of developers to work on various parts of code and being able to merge the different pieces into a whole without affecting each others work as wel as the master copy.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
